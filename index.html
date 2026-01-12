@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fullscreen 16:9 Scrolly Pictogram</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <!-- Fullscreen sticky graphic -->
+  <div class="graphic-full">
+    <div class="graphic-header">
+      <div class="title">Pictogram scroll demo</div>
+      <div class="state" id="state">—</div>
+    </div>
+
+    <div class="frame">
+      <canvas id="canvas"></canvas>
+    </div>
+  </div>
+
+  <!-- Scroll text overlays the graphic -->
+  <div class="text">
+    <section class="step" data-step="0" id="step-scatter">
+  <div class="card">
+    <h2>1) Scatter</h2>
+    <p>People start as a loose cloud.</p>
+  </div>
+</section>
+
+    <section class="step" data-step="1">
+      <div class="card">
+        <h2>2) Grouped</h2>
+        <p>They form three clusters without collapsing into a single point.</p>
+      </div>
+    </section>
+
+    <section class="step" data-step="2">
+      <div class="card">
+        <h2>3) Stacks</h2>
+        <p>Each group becomes a stacked pictogram block.</p>
+      </div>
+    </section>
+
+    <section class="step" data-step="3">
+      <div class="card">
+        <h2>4) 100% Bar</h2>
+        <p>All people form a 100% pictogram bar, ordered by group.</p>
+      </div>
+    </section>
+
+    <div style="height: 40vh;"></div>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
