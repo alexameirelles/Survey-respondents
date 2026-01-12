@@ -1,4 +1,4 @@
-const scroller = scrollama();
+import scrollama from "scrollama";
 /* -----------------------------
    Canvas setup
 ----------------------------- */
